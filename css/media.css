@@ -1,0 +1,29 @@
+/* AQUI SE AGREGAN LAS @MEDIA QUE SEGUIRÁ EL NAVEGADOR*/
+
+
+
+@media(min-width:601px) and (max-width: 1000px) {  /*entre el ancho min y el ancho maximo*/
+	[class*="col-"]{   /*col- es decir cualquiera sea la col sin importar su numero*/
+		width: 100%     /* se reordene todo y se vea el 100% de la pantalla*/
+	}
+	
+	#container{
+		background: url(../img/); /*aqui ponemos otra imagen que al aplicarse la media cambiara*/
+	}
+	img{
+		content: url(../img/);  /*AQUI VA LA IMAGEN DEL GATITO QUE VA SOBRE EL BACKGROUND PAISAJE*/
+	}
+}
+
+
+@media(min-width: 300px) and (max-width: 600px) {  /*entre el ancho min y el ancho maximo*/
+	[class*="col-"]{   /*col- es decir cualquiera sea la col sin importar su numero*/
+		width: 100%     /* se reordene todo y se vea el 100% de la pantalla*/
+	}
+	
+	#principal{
+		background: url(../img/); /*aqui ponemos otra imagen que al aplicarse la media cambiara*/
+	}
+	img{
+		content: url(../img/); /*AQUI VA LA IMAGEN DEL GATITO QUE VA SOBRE EL BACKGROUND PAISAJE*/
+}
